@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    max-width: 100%;
+    opacity: 0.9;
+
+}
+body {
+    opacity: 0.9;
+}
+
+.navbar {
+    opacity: 1;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.navbar {
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    height: 69px;
+    top: 0;
+    z-index: 1;
+
+
+
+}
+.logo {
+    height: 50px;
+
+}
+.bar {
+    text-decoration: underline;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+.bar a {
+    margin-right: 20px;
+}
+
+#mission {
+    position: relative;
+    max-width: 1200px;
+    max-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 120px;
+
+
+}
+.mission-img {
+    position: relative;
+    width: 1200px;
+    height: 700px;
+    opacity: 0.9;
+
+}
+.text {
+    position: absolute;
+    height: 0;
+    bottom: 350px;
+    opacity: 0.9;
+    align-content: center;
+    align-items: center;
+    width: 1200px;
+}
+#mission .title {
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+}
+.content {
+    padding-bottom: 5px;
+}
+
+
+
+#teaMonth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 200px auto; /* Adjust the top and bottom margin as needed */
+}
+#teaMonth .title {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+.content {
+    padding-bottom: 10px;
+}
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+#teaMonth img {
+    height: 200px;
+    width: 300px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+.image-text {
+    padding: 10px 0;
+}
+
+
+
+
+#locations {
+    position: relative;
+    max-height: 550px;
+    max-width: 1200px;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+}
+#locations .title {
+    position: absolute;
+    top: 15%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    font-size: 1.5rem;
+
+}
+img.background {
+    width: 1220px;
+    height: 725px;
+    opacity: 0.9;
+}
+
+.spots {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    background-color: transparent;
+    max-height: 300px;
+    opacity: 1;
+
+}
+
+.downtown, .east-bayside, .oakdale {
+    flex: 0 0 300px; /* This will make the items not grow or shrink, and set their base size to 300px */
+    background-color: black;
+    margin-right: 40px;
+
+}
+
+.downtown.address, .east-bayside.address, .oakdale.address {
+
+}
+
+#locations p {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: transparent;
+    margin-bottom: 40px;
+}
+#locations h3 {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+
+
+#footer {
+
+}
+.end {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.end h2 {
+    font-size: 1.5rem;
+}
+.copyright {
+    display: flex;
+    margin-left: 20px;
+}
+
+
+
+
+
+
